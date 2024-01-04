@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.font_size_20{
+    font-size: 20px !important;
+}
+.border-radius{
+    border-radius: 20px !important;
+}
+.relative{
+    position: relative;
+}
+main{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.icons_search{
+    width: 25px;
+    top: -37%;
+    left: 71%;
+}
+.icon{
+    width: 20%;
+    TEXT-ALIGN: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.icons a{
+    margin-top: 11%;
+    width: 15%;
+    margin-left: 5%;
+}
+.search input{
+    width: 55%;
+    margin-top: 5%;
+    border-radius: 12px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid 1px;
+}
+.body_header{
+    width: 92%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+}
+.body_header button{
+    margin-left: 64%;
+    border-radius: 12px;
+    margin-top: 3%;
+}
+.checkbox{
+    width: 92%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+#selectAllText{
+    font-weight: 600;
+    margin-top: -25px;
+    margin-left: 5%;
+}
+.delete{
+    font-weight: 300;
+    margin-left: 30%;
+    width: 180px !important;
+}
+.product{
+
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.product p{
+    margin-left: 11%;
+}
+.product_buy{
+    margin-top: -3% !important;
+}
+.product_buy p{
+    text-align: center;
+    margin-left: 1%;
+}
+.icon_delete{
+    text-align: right;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.icon_delete button{
+    background: none;
+    border: none;
+}
+.button_order{
+    text-align: right;
+    width: 85%;
+}
+.button_order button{
+    background-color: black;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 12px;
+}
+.button_order :hover{
+    background-color: #fff;
+    color: black;
+}
+footer{
+    margin-top: 50px;
+}
+.footer{
+    justify-content: space-around;
+}
+.footer p {
+    margin-top: 12px;
+}
+.icon_footer{
+    text-align-last: justify;
+    width: 160px;
+    margin-top: 5px;
+}

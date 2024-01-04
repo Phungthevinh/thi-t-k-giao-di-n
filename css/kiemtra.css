@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 100%;
+
+}
+.product td{
+    padding: 1%;
+}
+.product th{
+    padding: 1%;
+}
+.thongtin{
+    text-align: center;
+    width: 95%;
+}
+.button_hoantat{
+    justify-content: space-around;
+    margin: 10% auto 0 auto !important;
+}
+.button_hoantat button{
+    position: relative;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    top: 1%;
+}

@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.font_size_20{
+    font-size: 20px !important;
+}
+.border-radius{
+    border-radius: 20px !important;
+}
+.relative{
+    position: relative;
+}
+main{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.icons_search{  
+    width: 25px;
+    top: -37%;
+    left: 71%;
+}
+.icon{
+    width: 20%;
+    TEXT-ALIGN: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.icons a{
+    margin-top: 11%;
+    width: 15%;
+    margin-left: 5%;
+}
+.search input{
+    width: 55%;
+    margin-top: 5%;
+    border-radius: 12px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid 1px;
+}
+#demo{
+    width: 37%;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 1.5%;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+.tam{
+    width: 22px;
+    height: 19px;
+    background-color: #fff;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-radius: 0px 2px 14px 4px;
+    position: relative;
+    top: 4%;
+    left: 54%;
+    z-index: 900;
+}
+.product{
+    margin-top: 6% !important;
+}
+.option{
+    justify-content: space-evenly;
+}
+.option button{
+    border: solid black 1px;
+    color: black;
+    border-radius: 20px;
+    background: none;
+    margin-left: -20%;
+    
+}
+.option p{
+    margin-bottom: 0;
+}
+.option_2 button{
+    border: solid 1px;
+    border-radius: 20px;
+    text-align: center;
+    background: none;
+}
+.option_2 p{
+    margin-bottom: 0;
+}
+.style_color .styte_content{
+    padding: 0;
+}
+.styte_content p{
+    margin-left: -15px;
+}
+.styte_content h6{
+    margin-left: -15px;
+}
+.shopping_cart button{
+    border: solid 2px ;
+    background: none;
+    padding: 14%;
+    border-radius: 12px;
+    
+}
+.discount div{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    border: solid 1px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.5);
+}
+.read_more{
+    padding: 5px 50px !important;
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+    margin-left: 39%;
+}
+.Product_Description h5 {
+    margin-top: 2%;
+}
+.Product_Description div{
+    border: solid 1px ;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.5);
+    padding: 12px 5px;
+}
+.Product_Description_hide{
+    border: none !important;
+    box-shadow: none !important;
+    display: none;
+}
+table{
+    border: solid 2px;
+    border-radius: 20px !important;
+    border-collapse:inherit !important;
+}
+table td{
+    width: 50%;
+    padding-bottom: 10%;
+}
+.Seedetails{
+    width: 100% !important;
+    margin-top: 12px;
+    border-radius: 12px;
+    padding: 2px 0;
+    background: none;
+    box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.5);
+}
+footer{
+    margin-top: 50px;
+}
+.footer{
+    justify-content: space-around;
+}
+.footer p {
+    margin-top: 12px;
+}
+.icon_footer{
+    text-align-last: justify;
+    width: 160px;
+    margin-top: 5px;
+}
+.pupup_wrapper_1{
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vw;
+    z-index: 997;
+    display: none;
+}
+
+.information{
+    position: absolute;
+    width: 50%;
+    background-color: #fff; 
+    margin: 22px auto 0 auto;
+    border-radius: 25px;
+    z-index: 998;
+    left: 25%;
+    display: none;
+   
+}
+.information_header{
+    height: 4vw;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.close{
+    position: relative;
+    top: -89%;
+    left: 43%;
+    background: none;
+    border: none;
+}
+.information table{
+    border: none;
+   border-collapse:collapse !important;
+   width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.information td{
+    padding-bottom: 5.8%;
+}
+.information button{
+    width: 100% !important;
+    height: 35px;
+    background-color: black;
+    color: #fff;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
